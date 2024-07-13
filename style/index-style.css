@@ -1,0 +1,56 @@
+.wrapper {
+  width: 85%;
+  margin: 25px auto;
+}
+
+.sub_table {
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+}
+
+.sub_table tr {
+  height: 30px;
+}
+
+.sub_table tr th {
+  padding: 0 9px;
+}
+
+.sub_table tr td {
+  padding: 0 9px;
+  text-align: center;
+}
+
+.sub_table tr th,
+.sub_table tr td {
+  border: solid thin;
+}
+
+.no-content {
+  max-width: 350px;
+  height: 250px;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-content p {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.no-content img {
+  width: 100px;
+}
+
+.no-content p a {
+  text-transform: uppercase;
+  font-weight: 800;
+}

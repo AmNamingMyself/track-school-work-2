@@ -1,0 +1,16 @@
+.delete-form {
+  margin-top: 150px;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: lightblue;
+}
+
+.delete-form .item {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
